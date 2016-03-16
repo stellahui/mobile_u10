@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rustic Portraits - The Art of L. Lawrence Bispo</title>
+	
+	<!-- these are the three things jQM NEEDS in order to work properly! -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+	
+	<!-- rustic portraits theme -->
+	<link rel="stylesheet" href="themes/rp.min.css">
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+	
+	<!-- additional styles -->
+	<link rel="stylesheet" href="css/default.css">
+	
+</head>
+
+<body>
+
+	<!-- ### HOME ### -->
+
+	<section data-role="page" id="home">
+
+		<header data-role="header">
+			<h1 id="siteId">Rustic Portraits</h1>
+		</header>
+
+		<article data-role="content">
+			<img src="images/arizonadaybreak_detail_sm.jpg" alt="Arizona Daybreak">
+		</article>
+
+		<nav id="main">
+			<ul data-role="listview">
+				<li><a href="#rustic" data-transition="slide">Rustic</a></li>
+				<li><a href="#commission" data-transition="slide">Commission</a></li>
+				<li><a href="#studies" data-transition="slide">Studies</a></li>
+			</ul>
+		</nav>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section>
+
+	<!-- ### RUSTIC ### -->
+
+	<section data-role="page" id="rustic">
+
+		<header data-role="header">
+			<h1>Rustic</h1>
+			<a href="#home" class="ui-btn-right" data-icon="home" data-iconpos="notext">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<p>Rustic content.</p>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end rustic page -->
+
+	<!-- ### COMMISSION ### -->
+
+	<section data-role="page" id="commission">
+
+		<header data-role="header">
+			<h1><span>Commission</span></h1>
+			<a href="#home" class="ui-btn-right" data-icon="home">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+
+			<section class="gall" id="gallery-items">
+
+				<div class="gallnav">
+					<a href="#joynaomi" title="Joy Naomi" data-transition="slide">
+						<img src="images/joynaomi_th.jpg" alt="Joy Naomi">
+						<h4>Joy Naomi</h4>
+						<p>Oil on Canvas, 12 x 16<br>Commission Portrait</p>
+					</a>
+				</div>
+
+				<div class="gallnav">
+					<a href="#joanne" title="Joanne" data-transition="slide">
+						<img src="images/joanne_th.jpg" alt="Joanne">
+						<h4>Joanne</h4>
+						<p>Oil on Canvas, 14 x 18<br>Commission Portrait</p>
+					</a>
+				</div>
+
+				<div class="gallnav">
+					<a href="#scarf" title="The Scarf" data-transition="slide">
+						<img src="images/dana_th.jpg" alt="The Scarf">
+						<h4>The Scarf</h4>
+						<p>Oil on Canvas, 12 x 16<br>Life study</p>
+					</a>
+				</div>
+
+				<div class="gallnav">
+					<a href="#fiona" title="Fiona" data-transition="slide">
+						<img src="images/fiona_th.jpg" alt="Fiona">
+						<h4>Fiona</h4>
+						<p>Pastel on Paper, 8.5 x 11<br>Commission portrait</p>
+					</a>
+				</div>
+
+			</section>
+
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end commission page -->
+
+	<!-- ### JOY NAOMI ### -->
+
+	<section data-role="page" id="joynaomi">
+
+		<header data-role="header">
+			<a href="#commission" data-transition="slide" data-direction="reverse">Back</a>
+			<h2>Joy Naomi</h2>
+			<a href="#home">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<div class="work">
+				<img src="images/joynaomi.jpg" alt="Joy Naomi">
+			</div>
+			<div class="description">
+				<h3>Joy Naomi</h3>
+				<p class="caption">Commission Portrait.</p>
+				<p>Oil on Canvas, 8.5&nbsp;x&nbsp;11<br>Private collection.</p>
+			</div>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end joy naomi page -->
+
+	<!-- ### JOANNE ### -->
+
+	<section data-role="page" id="joanne">
+
+		<header data-role="header">
+			<a href="#commission" data-transition="slide" data-direction="reverse" data-icon="back" data-iconpos="notext">Back</a>
+			<h2>Joanne</h2>
+			<a href="#home" data-icon="home" data-iconpos="notext">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<div class="work">
+				<img src="images/joanne.jpg" alt="Joanne">
+			</div>
+			<div class="description">
+				<h3>Joanne</h3>
+				<p class="caption">Commission Portrait.</p>
+				<p>Oil on Canvas, 14&nbsp;x&nbsp;18<br>Private collection.</p>
+			</div>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end joanne page -->
+
+	<!-- ### THE SCARF ### -->
+
+	<section data-role="page" id="scarf">
+
+		<header data-role="header">
+			<a href="#commission" data-transition="slide" data-direction="reverse">Back</a>
+			<h2>The Scarf</h2>
+			<a href="#home">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<div class="work">
+				<img src="images/dana.jpg" alt="Dana">
+			</div>
+			<div class="description">
+				<h3>The Scarf</h3>
+				<p class="caption">Commission Portrait.</p>
+				<p>Oil on Canvas, 14&nbsp;x&nbsp;18<br>Private collection.</p>
+			</div>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end the scarf page -->
+
+	<!-- ### FIONA ### -->
+
+	<section data-role="page" id="fiona">
+
+		<header data-role="header">
+			<a href="#commission" data-transition="slide" data-direction="reverse">Back</a>
+			<h2>Fiona</h2>
+			<a href="#home">Home</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<div class="work">
+				<img src="images/fiona.jpg" alt="Fiona">
+			</div>
+			<div class="description">
+				<h3>Fiona</h3>
+				<p class="caption">Commission Portrait.</p>
+				<p>Pastel on paper, 11&nbsp;x&nbsp;14<br>Private collection.</p>
+			</div>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end joanne page -->
+
+	<!-- ### STUDIES ### -->
+
+	<section data-role="page" id="studies">
+
+		<header data-role="header">
+			<h1>Studies</h1>
+			<a href="#home">Back</a>
+		</header>
+
+		<article data-role="content" data-theme="a">
+			<p>Studious content.</p>
+		</article>
+
+		<footer data-role="footer"><p class="copyright">&copy; L. Lawrence Bispo</p></footer>
+
+	</section><!-- end studies page -->
+
+</body>
+
+</html>
